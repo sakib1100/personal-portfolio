@@ -5,8 +5,7 @@ import { BiUser } from 'react-icons/bi';
 import { CgFileDocument } from 'react-icons/cg';
 import { CgWebsite } from 'react-icons/cg';
 import { IoMdContacts } from 'react-icons/io';
-import { CgLogIn } from 'react-icons/cg';
-import { BsCalendar2Range } from 'react-icons/bs';
+
 
 
 const Navbar = ({children}) => {

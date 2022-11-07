@@ -1,7 +1,6 @@
 import React from 'react';
-
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-
+import image from './../image/resturent.png';
 
 const Portfolio = () => {
     return (
@@ -18,8 +17,7 @@ const Portfolio = () => {
           {/* Works Container Starts */}
           <div
             style={{
-              backgroundImage:
-                'url("https://play-lh.googleusercontent.com/dzGwWT0MKTyZnncxT2A05yrGryY9IQZTOh2QxEG00l6uvIp4yqqh0nYiFyAoloNyi0pw=w720-h310-rw")',
+              backgroundImage:"url('https://i.ibb.co/vd0QjBR/food.jpg')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -33,7 +31,7 @@ const Portfolio = () => {
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href=""
+                    href="https://resturantsakib.netlify.app"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
