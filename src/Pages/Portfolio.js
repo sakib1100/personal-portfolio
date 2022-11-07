@@ -25,7 +25,7 @@ const Portfolio = () => {
             className="w-11/12 h-48 md:h-60 lg:h-56 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]">
             <div className="w-full h-full bg-orange-200 opacity-0  hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Gandhi Quotes</p>
+                <p className='text-orange-700'>Gandhis Quotes</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
                   Best Collections of Quotes of Mahatma Gandhi
                 </p>
