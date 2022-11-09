@@ -1,11 +1,10 @@
-import React, { useState } from "react";
 import { BsFillTelephoneFill } from 'react-icons/bs';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { TiLocation } from 'react-icons/ti';
 import { CiFacebook } from 'react-icons/ci';
 import { RiWhatsappLine } from 'react-icons/ri';
 import { MdAlternateEmail } from 'react-icons/md';
-import emailjs from 'emailjs-com';
+
 
 const Contact = () => {
   // const [status, setStatus] = useState("Submit");
@@ -88,8 +87,8 @@ const Contact = () => {
       </div>
      
       <div className='flex items-center socialicon mt-4 cursor-pointer'>
-     <a target="_blank" href='https://www.facebook.com/mostafa.mohsin.5473'> <CiFacebook className="text-base text-4xl rounded-lg transition duration-500 hover:scale-150"  /></a>
-     <a target="_blank" href="https://wa.me/01877981100/?text=Hi i am sakib, Whatsup"> <RiWhatsappLine className="text-base text-4xl rounded-lg ml-4 transition duration-500 hover:scale-150" /></a>
+     <a target={"_blank"} href='https://www.facebook.com/mostafa.mohsin.5473'> <CiFacebook className="text-base text-4xl rounded-lg transition duration-500 hover:scale-150"  /></a>
+     <a target={"_blank"} href="https://wa.me/01877981100/?text=Hi i am sakib, Whatsup"> <RiWhatsappLine className="text-base text-4xl rounded-lg ml-4 transition duration-500 hover:scale-150" /></a>
       <MdAlternateEmail className="text-base text-4xl rounded-lg ml-4 transition duration-500 hover:scale-150" />
       </div>
     </div>

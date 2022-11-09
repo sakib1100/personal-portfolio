@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+
 import image from './../image/pic4.png'
 import { CiFacebook } from 'react-icons/ci';
 import { RiWhatsappLine } from 'react-icons/ri';
 import { MdOutlineCastForEducation } from 'react-icons/md';
 import { MdAlternateEmail } from 'react-icons/md';
-import { Link } from 'react-router-dom';
+
 
 
 
@@ -34,8 +34,8 @@ const About = () => {
        
       </div>
       <div className='flex items-center socialicon mt-4 cursor-pointer'>
-     <a target="_blank" href='https://www.facebook.com/mostafa.mohsin.5473'> <CiFacebook className="text-base text-4xl rounded-lg transition duration-500 hover:scale-150"  /></a>
-     <a target="_blank" href="https://wa.me/01877981100/?text=Hi i am sakib, Whatsup"> <RiWhatsappLine className="text-base text-4xl rounded-lg ml-4 transition duration-500 hover:scale-150" /></a>
+     <a target={"_blank"} href='https://www.facebook.com/mostafa.mohsin.5473'> <CiFacebook className="text-base text-4xl rounded-lg transition duration-500 hover:scale-150"  /></a>
+     <a target={"_blank"} href="https://wa.me/01877981100/?text=Hi i am sakib, Whatsup"> <RiWhatsappLine className="text-base text-4xl rounded-lg ml-4 transition duration-500 hover:scale-150" /></a>
       <MdAlternateEmail className="text-base text-4xl  rounded-lg ml-4 transition duration-500 hover:scale-150" />
       </div>
       

@@ -126,6 +126,7 @@ const Portfolio = () => {
                     href=""
                     className="cursor-pointer block"
                     target={"_blank"}
+                    
                   >
                     <BsFillArrowRightCircleFill className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-black text-orange-700 duration-300" />
                   </a>
