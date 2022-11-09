@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import image from './../image/resturent.png';
+
 
 const Portfolio = () => {
     return (
