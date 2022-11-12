@@ -17,7 +17,7 @@ const Portfolio = () => {
           {/* Works Container Starts */}
           <div
             style={{
-              backgroundImage:"url('https://i.ibb.co/vd0QjBR/food.jpg')",
+              backgroundImage:"url('https://i.ibb.co/gShFKcD/Screenshot-2.png')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -25,13 +25,13 @@ const Portfolio = () => {
             className="w-11/12 h-48 md:h-60 lg:h-56 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]">
             <div className="w-full h-full bg-orange-200 opacity-0  hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Gandhis Quotes</p>
+                <p className='text-orange-700'>Universal Fitness</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                  Best Collections of Quotes of Mahatma Gandhi
+                 Build perfect body and and Healthy Life
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://resturantsakib.netlify.app"
+                    href="https://gim-center.netlify.app"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
@@ -46,7 +46,7 @@ const Portfolio = () => {
           <div
             style={{
               backgroundImage:
-                'url("https://play-lh.googleusercontent.com/8aqAfNAhGesimpsrQAyPl1l6kwAUbsrBnVlmRL00n7rRj5V7wo_YhgsV1KMu8t05Bw=w720-h310-rw")',
+                'url("https://i.ibb.co/vd0QjBR/food.jpg")',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -55,13 +55,13 @@ const Portfolio = () => {
           >
             <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>IgCap</p>
+                <p className='text-orange-700'>Healthy Food</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                  A huge collection of Instagram Captions
+                 Good Food, Good Breath and enjoy it.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href=""
+                    href="https://resturantsakib.netlify.app"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
