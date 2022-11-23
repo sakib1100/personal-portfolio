@@ -76,7 +76,7 @@ const Portfolio = () => {
           <div
             style={{
               backgroundImage:
-                'url("https://play-lh.googleusercontent.com/ruEZL_MLiEnAANUhhsi13h0McRuHV3GA12evI7omfAJJvLFL5ff-7yon1PxqRaGXB8wW=w720-h310-rw")',
+                'url("https://i.ibb.co/C0GF25P/Screenshot-5.png")',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -85,14 +85,13 @@ const Portfolio = () => {
           >
             <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Happy Dashain Status</p>
+                <p className='text-orange-700'>Online Shopping</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                  App for Happy Dashain Status, Wishes, Images, SMS, Greetings
-                  and Wallpapers
+                Your Cart Happiness. All rights reserved Happyshopping.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href=""
+                    href="https://onlinebusinesss.netlify.app"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
