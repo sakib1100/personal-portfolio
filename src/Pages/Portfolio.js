@@ -15,9 +15,10 @@ const Portfolio = () => {
         </div>
         <div className="mt-8 md:mt-8 grid md:grid-cols-2 gap-6">
           {/* Works Container Starts */}
+          
           <div
             style={{
-              backgroundImage:"url('https://i.ibb.co/gShFKcD/Screenshot-2.png')",
+              backgroundImage:"",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -25,13 +26,14 @@ const Portfolio = () => {
             className="w-11/12 h-48 md:h-60 lg:h-56 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]">
             <div className="w-full h-full bg-orange-200 opacity-0  hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Universal Fitness</p>
+                <p className='text-orange-700'>Mechanic store</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                 Build perfect body and and Healthy Life
+                
+                 Good Food, Good Breath and enjoy it.
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href="https://gim-center.netlify.app"
+                    href="https://mechanic-store.netlify.app/"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
@@ -58,6 +60,7 @@ const Portfolio = () => {
                 <p className='text-orange-700'>Healthy Food</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
                  Good Food, Good Breath and enjoy it.
+                 
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
@@ -105,8 +108,7 @@ const Portfolio = () => {
           {/* Works Container Starts */}
           <div
             style={{
-              backgroundImage:
-                'url("https://play-lh.googleusercontent.com/aBfcQfWNs8LLWcxJ-k1MJ-ybGDtBtlW6S5byeSoCiVTJRZWhvRtECKzXgNSbOE6aRA=w720-h310-rw")',
+              backgroundImage:"url('https://i.ibb.co/gShFKcD/Screenshot-2.png')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -115,14 +117,13 @@ const Portfolio = () => {
           >
             <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Hanuman Chalisa</p>
+                <p className='text-orange-700'>Universal Fitness</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                  Shree Hanuman Chalisa with meanings in Hindi, English, and
-                  Nepali
+                Build perfect body and and Healthy Life
                 </p>
                 <div className="absolute right-2 bottom-2">
                   <a
-                    href=""
+                    href="https://gim-center.netlify.app"
                     className="cursor-pointer block"
                     target={"_blank"}
                     
