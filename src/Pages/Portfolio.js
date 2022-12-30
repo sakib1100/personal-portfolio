@@ -18,7 +18,8 @@ const Portfolio = () => {
           
           <div
             style={{
-              backgroundImage:"https://i.ibb.co/6Y0wLZp/Screenshot-7.png",
+              backgroundImage:
+              'url("https://i.ibb.co/6Y0wLZp/Screenshot-7.png")',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
