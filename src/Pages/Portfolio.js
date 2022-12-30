@@ -18,7 +18,7 @@ const Portfolio = () => {
           
           <div
             style={{
-              backgroundImage:"",
+              backgroundImage:"https://i.ibb.co/6Y0wLZp/Screenshot-7.png",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -143,3 +143,6 @@ const Portfolio = () => {
 
 
 export default Portfolio;
+
+
+
