@@ -9,6 +9,8 @@ import Skills from './Pages/Skills';
 import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
 import Review from './Pages/Review';
+import AllProject from './Pages/AllProject';
+import Foter from './Pages/Foter';
 
 function App() {
 
@@ -25,7 +27,7 @@ function App() {
 <Routes >
 
  <Route path="/" element={<Home />}></Route>
-  <Route path="/home" element={<Home />}></Route>
+  <Route path="/AllProject" element={<AllProject />}></Route>
   <Route path="/about" element={<About />}></Route>
   <Route path="/skills" element={<Skills />}></Route>
   <Route path="/portfolio" element={<Portfolio />}></Route>
@@ -33,7 +35,6 @@ function App() {
   <Route path='/review' element={<Review />}></Route>
 
 </Routes>
-
 
 </Navbar>
      

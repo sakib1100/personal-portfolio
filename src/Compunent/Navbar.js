@@ -18,7 +18,7 @@ const Navbar = ({children}) => {
   <div className="drawer-content flex flex-col">
 
     <div className="w-full navbar fixed top-0 z-50 bg-base-100 max-sm:px-10  px-20">
-    <div className="flex-1   mx-2 text-2xl font-bold text-orange-600 font-mono">Sakib.</div>
+    <div className="flex-1   mx-2 text-2xl font-bold text-orange-600 font-mono"><Link to="/">SAKIB.</Link></div>
     <div className="">
  <label className="swap swap-rotate lg:hidden ">
   <input type="checkbox" onClick={() => setDark(!dark)} />
@@ -35,7 +35,7 @@ const Navbar = ({children}) => {
       <div className="flex-none hidden lg:block">
         <ul className="menu menu-horizontal gap-x-1" >
           
-          <li><Link  to="/home" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg"><BiHome className="text-base" /> Home</Link></li>
+          <li><Link  to="/" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg"><BiHome className="text-base" /> Home</Link></li>
           <li><Link to="/about" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg"><BiUser className="text-base" /> About</Link></li>
           <li><Link  to="/skills" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg"><CgFileDocument className="text-base" /> Skills</Link></li>
           <li><Link  to="/portfolio" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg"><CgWebsite className="text-base" /> Portfolio</Link></li>
@@ -59,7 +59,7 @@ const Navbar = ({children}) => {
     
     <ul className="menu p-4 overflow-y-auto w-40 bg-base-100">
       
-          <li><Link to="/home" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg">Home</Link></li>
+          <li><Link to="/" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg">Home</Link></li>
           <li ><Link  to="/about" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg"> About</Link></li>
           <li><Link  to="/skills" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg">Skills</Link></li>
           <li><Link  to="/portfolio" className="focus:bg-orange-100 focus:text-orange-800 rounded-lg">Portfolio</Link></li>
