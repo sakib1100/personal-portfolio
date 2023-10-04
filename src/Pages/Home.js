@@ -23,6 +23,7 @@ const Home = () => {
      data-aos-offset="500"
      data-aos-duration="1000">
     <p className="lg:text-5xl md:text-4xl max-sm:text-3xl font-bold font-serif ">Mostafa Mohsin</p>
+    {/* <p className="lg:text-4xl md:text-3xl max-sm:text-2xl font-bold font-serif ">React Developer</p> */}
       <p className="py-6 font-serif">I am Full stack Developer with React js , Node js,<br /> Express and MongoDB
  basically Frontend specalist. </p>
       <a target={"_blank"} href="https://drive.google.com/file/d/1KutOCX8qMB2jtyYAnyrzpARUQo2ubqFb/view?usp=sharing" className="btn border-none  bg-orange-600 hover:bg-orange-600  hover:text-white max-sm:btn-md btn-light text-lime-100 text-md"> <CgFileDocument className="text-base" /> Resume</a>

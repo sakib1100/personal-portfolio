@@ -24,13 +24,17 @@ const About = () => {
       <h1 className="text-3xl  font-bold font-serif max-sm:text-2xl ">Frontend Web Developer</h1>
        <p  className='text-lg text-tahiti-dark max-sm:text-2sm   mt-3 font-serif'> I am Full stack Developer with React js, Node js Express and MongoDB<br></br> basically Frontend specalist. I am currently working in online marketplace<br></br> as well as looking for a job remotely or in any company.</p>
        <p className=' text-xl mt-3 flex max-sm:text-2xl  items-center '><MdOutlineCastForEducation className="text-base text-xl max-sm:text-center " /> <span className='ml-2 font-bold'>Education--</span></p>
-       <li className='text-2xl font-semibold font-serif max-sm:text-xl max-sm:font-bold '>Computer Science and Engineering </li>
-       <p className='text-lg font-serif'>Chittagong Polytechnic Institute,bangladesh</p>
-       <p className='italic'>current-2018-2022</p>
+
+     
+       <li className='text-2xl font-semibold font-serif  max-sm:text-xl max-sm:font-bold'>BSC in Computer Science and Engineering</li>
+       <p className='text-lg font-serif'>Northern University Bangladesh</p>
+       <p className='italic'>current-2023-at present</p>
        
-       <li className='text-2xl font-semibold font-serif  max-sm:text-xl max-sm:font-bold'>Secondary School Certificate </li>
-       <p className='text-lg font-serif'>Garangia High School, Bangladesh</p>
-       <p className='italic'>current-2012-2018</p>
+
+       <li className='text-2xl font-semibold font-serif max-sm:text-xl max-sm:font-bold '>Diploma in Computer Technology </li>
+       <p className='text-lg font-serif'>Chattogram Polytechnic Institute</p>
+       <p className='italic'>current-2018-2023</p>
+       
        
       </div>
       <div className='flex items-center socialicon mt-4 cursor-pointer'>

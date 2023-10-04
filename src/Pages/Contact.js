@@ -38,7 +38,7 @@ const Contact = () => {
     <div className="mt-10 "> 
  <div className="pt-20">
 <p className='font-bold text-5xl font-bold font-serif  max-sm:text-4xl text-center'>Contact Me</p>
-<p className=" mt-2 text-center">Enter Your Reason</p>
+<p className=" mt-2 text-center"></p>
 </div> 
     <div className="hero-content pb-16 flex justify-evenly  w-full max-sm:flex-col lg:mt-2  sm:mt-20  sm:flex-col lg:flex-row-reverse">
  <form  action="https://formspree.io/f/xayklrzn" method="post" className=" max-sm:mb-5  ">
@@ -74,8 +74,8 @@ const Contact = () => {
     <div>
     
       <div className="mb-3">
-     <p className="flex items-center text-xl "><BsFillTelephoneFill className="text-orange-600" /><span className="ml-3">Call Me</span></p>
-     <p>+8801877981100 or 01865395208</p>
+     <p className="flex items-center text-xl "><BsFillTelephoneFill className="text-orange-600" /><span className="ml-3">Phone</span></p>
+     <p>+8801877981100</p>
       </div>
       <div className="mb-3">
      <p className="flex items-center text-xl "><MdMarkEmailUnread className="text-orange-600" /><span className="ml-3">Email</span></p>
@@ -83,7 +83,7 @@ const Contact = () => {
       </div>
       <div className="mb-3">
      <p className="flex items-center text-xl "><TiLocation className="text-orange-600" /><span className="ml-3">Location</span></p>
-     <p>Satkania,Chittagong,Bangladesh</p>
+     <p>Mirpur10, Dhaka, Bangladesh</p>
       </div>
      
       <div className='flex items-center socialicon mt-4 cursor-pointer'>
