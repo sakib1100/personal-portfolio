@@ -98,7 +98,7 @@ const AllProject = () => {
           <div
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/C0GF25P/Screenshot-5.png")',
+                'url("https://i.ibb.co/2j1HRk3/Screenshot-2023-10-16-111248.png")',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -107,13 +107,13 @@ const AllProject = () => {
           >
             <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Online Shopping</p>
+                <p className='text-orange-700'>Shopping</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                Your Cart Happiness. All rights reserved Happyshopping.
+               This is online shopping website.
                 </p>
                 <div className="absolute flex gap-x-2 right-2 bottom-2">
                 <a
-                    href="https://github.com/sakib1100/my-business-site"
+                    href="https://github.com/sakib1100/shopping-clinet"
                     className="cursor-pointer block"
                     target={"_blank"}
                     
@@ -122,7 +122,7 @@ const AllProject = () => {
                   </a>
 
                   <a
-                    href="https://onlinebusinesss.netlify.app"
+                    href="https://shoppingmalsite.netlify.app/home"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
@@ -173,6 +173,50 @@ const AllProject = () => {
           </div>
              {/* Works Container Ends */}
           {/* Works Container Starts */}
+
+
+          <div
+            style={{
+              backgroundImage:
+                'url("https://i.ibb.co/vBv6Yfc/Screenshot-1.png")',
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+            className="w-11/12 md:h-60 h-48 lg:h-56 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+          >
+            <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
+              <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
+                <p className='text-orange-700'>Clean City</p>
+                <p className="text-xl font-normal text-orange-700 mt-2">
+                Clean Your City and save country.
+                </p>
+                <div className="absolute flex gap-x-2 right-2 bottom-2">
+                <a
+                    href="https://github.com/sakib1100/Clean-City-Client"
+                    className="cursor-pointer block"
+                    target={"_blank"}
+                    
+                  >
+                    <AiFillGithub className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-black text-orange-700 duration-300" />
+                  </a>
+
+                  <a
+                    href="https://cleancity3.netlify.app/"
+                    className="cursor-pointer block"
+                    target={"_blank"}
+                  >
+                    <RiShareForward2Fill className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-black text-orange-700 duration-300" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+             {/* worjs Container Ends */}
+          
           <div
             style={{
               backgroundImage:"url('https://i.ibb.co/gShFKcD/Screenshot-2.png')",
@@ -210,6 +254,50 @@ const AllProject = () => {
             </div>
           </div>
           {/* Works Container Ends */}
+
+
+         
+          {/* Works Container Ends */}
+          {/* Works Container Starts */}
+          <div
+            style={{
+              backgroundImage:
+                'url("https://i.ibb.co/C0GF25P/Screenshot-5.png")',
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+            }}
+            className="w-11/12 md:h-60 h-48 lg:h-56 group rounded-md shadow-lg overflow-hidden shadow-[#040c16]"
+          >
+            <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
+              <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
+                <p className='text-orange-700'>Online Shopping</p>
+                <p className="text-xl font-normal text-orange-700 mt-2">
+                Your Cart Happiness. All rights reserved Happyshopping.
+                </p>
+                <div className="absolute flex gap-x-2 right-2 bottom-2">
+                <a
+                    href="https://github.com/sakib1100/my-business-site"
+                    className="cursor-pointer block"
+                    target={"_blank"}
+                    
+                  >
+                    <AiFillGithub className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-black text-orange-700 duration-300" />
+                  </a>
+
+                  <a
+                    href="https://onlinebusinesss.netlify.app"
+                    className="cursor-pointer block"
+                    target={"_blank"}
+                  >
+                    <RiShareForward2Fill className="cursor-pointer text-5xl rounded-full p-1 hover:bg-transparent hover:text-white border-4 bg-white border-black text-orange-700 duration-300" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
         </div>
       </div>
     </div>

@@ -101,7 +101,7 @@ const Portfolio = () => {
           <div
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/C0GF25P/Screenshot-5.png")',
+                'url("https://i.ibb.co/2j1HRk3/Screenshot-2023-10-16-111248.png")',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
@@ -110,13 +110,13 @@ const Portfolio = () => {
           >
             <div className="w-full h-full bg-orange-200 opacity-0 hover:opacity-100 duration-300">
               <div className="relative p-2 md:p-8 h-full w-full text-2xl text-white font-bold">
-                <p className='text-orange-700'>Online Shopping</p>
+                <p className='text-orange-700'>Shopping</p>
                 <p className="text-xl font-normal text-orange-700 mt-2">
-                Your Cart Happiness. All rights reserved Happyshopping.
+               This is online shopping website.
                 </p>
                 <div className="absolute flex gap-x-2 right-2 bottom-2">
                 <a
-                    href="https://github.com/sakib1100/my-business-site"
+                    href="https://github.com/sakib1100/shopping-clinet"
                     className="cursor-pointer block"
                     target={"_blank"}
                     
@@ -125,7 +125,7 @@ const Portfolio = () => {
                   </a>
 
                   <a
-                    href="https://onlinebusinesss.netlify.app"
+                    href="https://shoppingmalsite.netlify.app/home"
                     className="cursor-pointer block"
                     target={"_blank"}
                   >
@@ -174,6 +174,7 @@ const Portfolio = () => {
               </div>
             </div>
           </div>
+          
           {/* Works Container Ends */}
 
         </div>
