@@ -8,7 +8,7 @@ const Portfolio = () => {
     return (
 
 
-    <div name="work" className="lg:mt-20  max-sm:my-40  max-sm:h-screen max-md:mt-40  min-h-screen py-20 max-h-full w-full flex-col flex items-center font-myfont justify-center">
+    <div name="work" className="lg:mt-3  lg:mb-9 max-sm:mt-36  max-sm:my-40  max-sm:h-screen max-md:mt-40  min-h-screen py-20 max-h-full w-full flex-col flex items-center font-myfont justify-center">
       <div className="w-2/3  mx-auto h-screen2 flex flex-col justify-center">
         <div className="md:text-center font-bold">
           <h1 className="max-sm:text-3xl text-dark text-5xl text-center lg:pb-10">
