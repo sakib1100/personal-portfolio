@@ -26,7 +26,7 @@ const Home = () => {
     {/* <p className="lg:text-4xl md:text-3xl max-sm:text-2xl font-bold font-serif ">React Developer</p> */}
       <p className="py-6 font-serif">I am Full stack Developer with React js , Node js,<br /> Express and MongoDB
  basically Frontend specalist. </p>
-      <a target={"_blank"} href="https://drive.google.com/file/d/1_hbMnKRCLQddSm2Gi0RhSlX4inkgXS3B/view?usp=sharing" className="btn border-none  bg-orange-600 hover:bg-orange-600  hover:text-white max-sm:btn-md btn-light text-lime-100 text-md"> <CgFileDocument className="text-base" /> Resume</a>
+      <a target={"_blank"} href="https://drive.google.com/file/d/1PEXOrdjfRwv3NsVLIBzEkRLtu8obBwyk/view?usp=sharing" className="btn border-none  bg-orange-600 hover:bg-orange-600  hover:text-white max-sm:btn-md btn-light text-lime-100 text-md"> <CgFileDocument className="text-base" /> Resume</a>
     </div>
   </div>
 </div>
