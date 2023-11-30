@@ -7,6 +7,7 @@ import Skills from './Skills';
 import Review from './Review';
 import Foter from './Foter';
 import Portfolio from './Portfolio';
+import SkillSlide from './SkillSlide';
 const Home = () => {
     return (
 
@@ -34,7 +35,9 @@ const Home = () => {
 
 
 
-
+<div  className='mt-10 w-100 '>
+    <SkillSlide />
+</div>
 
 <div  className='mt-10 w-100 '>
     

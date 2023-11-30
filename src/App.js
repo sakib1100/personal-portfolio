@@ -10,7 +10,7 @@ import Portfolio from './Pages/Portfolio';
 import Contact from './Pages/Contact';
 import Review from './Pages/Review';
 import AllProject from './Pages/AllProject';
-import Foter from './Pages/Foter';
+import SkillSlide from './Pages/SkillSlide';
 
 function App() {
 
@@ -33,6 +33,7 @@ function App() {
   <Route path="/portfolio" element={<Portfolio />}></Route>
   <Route path='/contact' element={<Contact />}></Route>
   <Route path='/review' element={<Review />}></Route>
+  <Route path='/skillSlide' element={<SkillSlide />}></Route>
 
 </Routes>
 
