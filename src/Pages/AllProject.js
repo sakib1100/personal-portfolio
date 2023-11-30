@@ -137,7 +137,7 @@ const AllProject = () => {
           <div
             style={{
               backgroundImage:
-                'url("https://i.ibb.co/vd0QjBR/food.jpg")',
+                'url("https://i.ibb.co/bmxf1kP/resturent.png")',
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "cover",
