@@ -9,57 +9,53 @@ import react from '../image/kisspng-game-react-native-javascript-android-physics
 import mongodb from '../image/kisspng-mongodb-node-js-npm-open-source-model-angularjs-leaf-5ac44d9ef0ccd5.2435370215228143669863.png';
 import firebae from '../image/kisspng-firebase-cloud-messaging-computer-icons-google-clo-github-5ad5d3ce4fc460.4730334415239628303267.png';
 import node from '../image/node.png';
+
 const SkillSlide = () => {
-//     <Slider
-//     width="200px"
-//     duration={40}
-//     toRight={false}
-//     blurBorders={false}
-//     blurBoderColor={'#fff'}
-//   >
-//     ...
-//   </Slider>
+
+
     return (
-        <Slider
-        width="250px"
+       <div className='my-10'>
+         <Slider 
+       
         duration={40}
-        pauseOnHover={true}
         blurBorders={false}
         blurBoderColor={'#fff'}
     >
         <Slider.Slide>
-            <img src={html} alt="any" className='w-36' />
+            <img src={html} alt="any" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={css} alt="any2" className='w-36' />
+            <img src={css} alt="any2" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={js} alt="any3" className='w-36' />
+            <img src={js} alt="any3" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={bootstrap} alt="any3" className='w-36' />
+            <img src={bootstrap} alt="any3" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={git} alt="any3" className='w-36' />
+            <img src={git} alt="any3" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={react} alt="any3" className='w-36' />
+            <img src={react} alt="any3" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={node} alt="any3" className='w-36' />
+            <img src={node} alt="any3" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={mongodb} alt="any3" className='w-36' />
+            <img src={mongodb} alt="any3" className='w-20 h-20' />
         </Slider.Slide>
         <Slider.Slide>
-            <img src={firebae} alt="any3" className='w-36' />
+        <img src={firebae} alt="any3" className='w-20 h-20' />
+
         </Slider.Slide>
-        <Slider.Slide>
-            <div>
-                Other component...
-            </div>
-        </Slider.Slide>
+        
     </Slider>
+
+   
+
+
+       </div>
     )
 }              
                      
