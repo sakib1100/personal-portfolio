@@ -6,7 +6,7 @@ import { AiFillGithub } from "react-icons/ai";
 const AllProject = () => { 
     return (
 
-<div className='max-sm:mt-9'>
+<div className='max-sm:mt-24'>
   
 <div name="work" className="max-sm:mt-96  max-sm:h-screen max-md:mt-40 dark:text-white min-h-screen max-h-full w-full flex-col flex items-center font-myfont justify-center">
       <div className="w-2/3  mx-auto h-screen2 flex flex-col justify-center">

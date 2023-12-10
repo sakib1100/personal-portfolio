@@ -6,7 +6,7 @@ import { CgFileDocument } from 'react-icons/cg';
 import { CgWebsite } from 'react-icons/cg';
 import { IoMdContacts } from 'react-icons/io';
 import DayNightToggle from 'react-day-and-night-toggle'
-
+import './Navbar.css'
 const Navbar = ({children}) => {
   const [dark,setDark] = useState(false);
 
@@ -18,6 +18,7 @@ const Navbar = ({children}) => {
 
     <div className="w-full navbar fixed top-0 z-50 bg-base-100 max-sm:px-10  px-20">
     <div className="flex-1   mx-2 text-2xl font-bold text-orange-600 font-mono"><Link to="/">SAKIB.</Link></div>
+ 
     <div className="">
 
  <li className="lg:hidden" style={{marginTop:"-23px"}}><Link><DayNightToggle  onChange={() => setDark(!dark)}  checked={dark} /></Link></li>

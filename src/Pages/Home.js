@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image from './../image/pic1.png';
 import { CgFileDocument } from 'react-icons/cg';
 import About from './About';
@@ -8,13 +8,24 @@ import Review from './Review';
 import Foter from './Foter';
 import Portfolio from './Portfolio';
 import SkillSlide from './SkillSlide';
+import './Home.css';
 const Home = () => {
+  const [dark,setDark] = useState(true);
+
     return (
 
-<div>
+<div className=''>
+
 
 <div className="hero lg:h-screen min-h-fit  bg-base-200">
-  <div className="hero-content flex-col lg:flex-row-reverse md:mt-10 max-sm:mb-5   max-lg:mt-20">
+ 
+  <div className="hero-content flex-col lg:flex-row-reverse md:mt-10 max-sm:mb-5 lg:p-20   max-lg:mt-20">
+  {/* {dark && <div id='stars'></div>
+           <div id='stars2'></div>
+           <div id='stars3'></div> } */}
+{dark ? <div><div id='stars'></div>
+           <div id='stars2'></div>
+           <div id='stars3'></div></div> : ''}
   <img data-aos="fade-left"
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
@@ -23,7 +34,19 @@ const Home = () => {
      data-aos-anchor="#example-anchor"
      data-aos-offset="500"
      data-aos-duration="1000">
-    <p className="lg:text-5xl md:text-4xl max-sm:text-3xl font-bold font-serif ">Mostafa Mohsin</p>
+
+<main class="container lg:flex lg:justify-center">
+  <p className='text-dark font-bold'>Hello I'm</p>
+  <section class="animation lg:ml-7">
+    <div class="first text-dark"><div>Mostafa Mohsin</div></div>
+    <div class="second text-dark"><div>Web Developer</div></div>
+    <div class="third text-dark"><div>React Develoer</div></div>
+    <div class="third text-dark"><div>JavaScript Engineer</div></div>
+  </section>
+</main>
+
+      
+    {/* <p className="lg:text-5xl md:text-4xl max-sm:text-3xl font-bold font-serif ">Mostafa Mohsin</p> */}
     {/* <p className="lg:text-4xl md:text-3xl max-sm:text-2xl font-bold font-serif ">React Developer</p> */}
       <p className="py-6 font-serif">I am Full stack Developer with React js , Node js,<br /> Express and MongoDB
  basically Frontend specalist. </p>
