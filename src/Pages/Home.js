@@ -41,7 +41,6 @@ const Home = () => {
     <div class="first text-dark"><div>Mostafa Mohsin</div></div>
     <div class="second text-dark"><div>Web Developer</div></div>
     <div class="third text-dark"><div>React Develoer</div></div>
-    <div class="third text-dark"><div>JavaScript Engineer</div></div>
   </section>
 </main>
 

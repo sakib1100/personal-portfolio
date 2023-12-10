@@ -6,7 +6,6 @@
 .container {
   font-size: 2.26rem;
   text-transform: uppercase;
-
   align-items: center;
   justify-content: center;
 }
@@ -23,7 +22,7 @@
 }
 
 .animation div:first-child {
-  animation: text-animation 8s infinite;
+  animation: text-animation 10s infinite;
 }
 
 
